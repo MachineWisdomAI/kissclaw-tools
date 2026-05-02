@@ -1,16 +1,33 @@
 {
   "name": "kissclaw-tools",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.1.0",
+  "description": "Shared tooling for KissClaw and KissClawJJ — TypeScript-aware cherry-pick validation (kc-check-imports) and related release-engineering helpers.",
+  "main": "kc-check-imports.mjs",
+  "type": "module",
+  "bin": {
+    "kc-check-imports": "./kc-check-imports.mjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "scripts": {
+    "kc-check-imports": "node kc-check-imports.mjs"
+  },
+  "keywords": [
+    "kissclaw",
+    "kissclawjj",
+    "openclaw",
+    "cherry-pick",
+    "typescript",
+    "release-engineering"
+  ],
+  "author": "MachineWisdomAI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MachineWisdomAI/kissclaw-tools.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
-    "typescript": "^6.0.3"
+    "typescript": "^5.7.0"
   }
 }
