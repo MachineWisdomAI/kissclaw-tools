@@ -1,3 +1,5 @@
 node_modules/
 *.log
 .DS_Store
+# Local MachineWisdom agent/review artifacts
+.wise-agents/
