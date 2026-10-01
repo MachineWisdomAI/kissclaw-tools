@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "units": [
+    {
+      "name": "repo",
+      "paths": [
+        "**"
+      ],
+      "files": [
+        {
+          "path": "package.json",
+          "kind": "json"
+        },
+        {
+          "path": "package-lock.json",
+          "kind": "npm-lock"
+        }
+      ]
+    }
+  ]
+}
