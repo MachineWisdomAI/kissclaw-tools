@@ -25,3 +25,7 @@ This repository is a MachineWisdom release-engineering toolkit for KissClaw and 
 
 - Keep this file short and repo-specific.
 - Put long runbooks, architecture, and operational detail in docs/ or FAVA Trails.
+
+## Version updates
+
+For a versioned change PR, follow [the version policy](docs/version-policy.md) and run the repository-local updater before review and after updating the branch from main. Keep commit and PR titles in Conventional Commits format.

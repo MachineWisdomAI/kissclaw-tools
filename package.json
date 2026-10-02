@@ -1,6 +1,6 @@
 {
   "name": "kissclaw-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared tooling for KissClaw and KissClawJJ — TypeScript-aware cherry-pick validation (kc-check-imports) and related release-engineering helpers.",
   "main": "kc-check-imports.mjs",
   "type": "module",
